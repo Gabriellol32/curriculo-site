@@ -1,3 +1,16 @@
 .img-profile{
     width: 200px; 
 }
+
+.profile-card {
+    border: 3px solid #FF5733; /* Cor e espessura da borda */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4); /* Sombra */
+    margin-bottom: 20px; /* Espaçamento entre contêineres */
+}
+
+.img-profile {
+    width: 100%; /* Ajusta a imagem para caber no contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
